@@ -488,3 +488,17 @@
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
 }
+.portfolio-item {
+  width: 100%;   /* pienillä näytöillä koko leveys */
+  margin-bottom: 20px;
+}
+@media (min-width: 576px) {
+  .portfolio-item {
+    width: 50%;  /* esim. kaksi rinnakkain */
+  }
+}
+@media (min-width: 992px) {
+  .portfolio-item {
+    width: 33.333%; /* kolme rinnakkain */
+  }
+}
